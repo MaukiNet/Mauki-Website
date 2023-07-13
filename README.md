@@ -1,40 +1,39 @@
-# VueTest
+[discord-invite]: https://discord.gg/7fVXR2g7DG
 
-This template should help get you started developing with Vue 3 in Vite.
+[maven-central]: https://img.shields.io/badge/Version-v1.3.0.BETA-blue.svg
+[discord-shield]: https://discord.com/api/guilds/859073652775059457/widget.png
 
-## Recommended IDE Setup
+[license]: https://github.com/MaukiNet/MC-Dashboard/blob/main/LICENSE
+[license-shield]: https://img.shields.io/badge/License-GPL3.0-green.svg
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[version]: https://img.shields.io/static/v1?label=Download&message=SNAPSHOT-v1.0.0_ALPHA&color=blue
+[download]: https://github.com/MaukiNet/MaukiSeasonPL/releases/tag/v1.0.0_ALPHA
 
-## Type Support for `.vue` Imports in TS
+[ ![version][] ][download]
+[ ![license-shield][] ][license]
+<!--
+![maven-central][]
+-->
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+<img align="right" src="https://github.com/MaukiNet/.github/blob/main/assets/4542221e59746b200f7d3d2c96cf9210.png" height="200" width="200">
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+# Homepage
+Homepage für mauki.net
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Table of Contents
+1. [Environmental Variables](#environmental-variables)
+2. [Running](#running-on-maukinet)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## Environmental Variables
+```env
+VITE_CLIENT_SECRET=
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Running (on mauki.net)
+| **Key**         	| **Value**               	|
+|-----------------	|-------------------------	|
+| Location        	| `/home/www/homepage`      |
+| Screen Name     	| `homepage`               	|
+| Open (detached) 	| `screen -r homepage`     	|
+| Open (attached) 	| `screen -x homepage`     	|
+| Execute from cl 	| `npm run build`          	|

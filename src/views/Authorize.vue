@@ -1,10 +1,26 @@
 <script lang="ts">
-    export default {
-        data() {
 
-        },
+    import { add_user, get_user } from '@/main';
+
+    export default {
         async mounted() {
-            console.log("A1")
+
+            function getCookie(name:string) {
+                var cookieArr = document.cookie.split(";");
+                for(var i = 0; i < cookieArr.length; i++) {
+                    var cookiePair = cookieArr[i].split("=");
+                    if(name == cookiePair[0].trim()) {
+                        return decodeURIComponent(cookiePair[1]);
+                    }
+                }
+                return "null";
+            }
+
+            if(get_user(getCookie("id")) != null) {
+                window.location.href = "/";
+                return;
+            }
+
             function _encode(obj:object) {
                 let string = "";
                 for (const [key, value] of Object.entries(obj)) {
@@ -14,34 +30,26 @@
                 return string.substring(1);
             }
 
-            console.log("A")
-
             let queries = new URLSearchParams(window.location.search);
             if(!queries.has("code")) return;
             const code = queries.get("code");
 
-            console.log("B")
-
             let data = {
                 'client_id': '1108073196667801601',
-                'client_secret': '', //EINSETZEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                'client_secret': import.meta.env.VITE_CLIENT_SECRET,
                 'grant_type': 'authorization_code',
                 'code': code,
                 'redirect_uri': 'http://localhost:5173/callback',
                 'scope': 'identify'
             };
 
-            console.log(data)
-
             var response = await fetch('https://discord.com/api/oauth2/token', {
                 method: 'POST',
                 body: _encode(data),
                 headers: {
-                    'Content-Type': 'application/x-www-urlencoded'
+                    'Content-Type': 'application/x-www-form-urlencoded'
                 }
             });
-
-            console.log("C")
 
             var creds = await response.json().catch(err => console.log(err));
             const { access_token, token_type } = creds;
@@ -52,8 +60,6 @@
                 }
             });
 
-            console.log("D")
-
             await response.text().catch(err => console.log(err)).then(text => {
                 if(typeof text != 'string') return;
                 if(text.startsWith("<")) return;
@@ -63,13 +69,16 @@
                     user = null;
                     return;
                 }
-
                 user["avatar_url"] = "https://cdn.discordapp.com/avatars/" + user["id"] + "/" + user["avatar"] + ".png";
-                console.log(user);
+                document.cookie = `discord_id=${user["id"]}`; 
+                add_user(user["id"], user);
+                window.location.href = "/";
             })
+
         },
     }
 </script>
 
 <template>
+    <p>Anmeldung fehlgeschlagen!</p>
 </template>
