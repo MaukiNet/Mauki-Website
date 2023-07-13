@@ -80,5 +80,6 @@
 </script>
 
 <template>
+    <title>Anmeldung fehlgeschlagen - mauki.net</title>
     <p>Anmeldung fehlgeschlagen!</p>
 </template>

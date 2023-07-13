@@ -15,6 +15,7 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
 </script>
 
 <template>
+    <title>Kontakt - mauki.net</title>
     <Navbar></Navbar>
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
