@@ -1,6 +1,6 @@
 {
   "name": "mauki-website",
-  "version": "v1.4.0_ALPHA",
+  "version": "v1.4.0-ALPHA",
   "private": true,
   "scripts": {
     "dev": "vite",
