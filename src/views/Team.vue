@@ -68,7 +68,8 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                 rank="Moderation" 
                 img="https://cdn.discordapp.com/avatars/818556798461149248/49bd0ccfc2a154b9d5f64112e1d64bc2.webp?size=128"
                 twitter="https://twitter.com/einfach_kazuha"
-                spotify="https://open.spotify.com/user/le8e9a7zv701fr6pns7pg7oy6"></TeamContainer>
+                spotify="https://open.spotify.com/user/le8e9a7zv701fr6pns7pg7oy6"
+                ttv="https://www.twitch.tv/kazuha8124"></TeamContainer>
 
                 <TeamContainer 
                 name="NicyAmSleepen" 
