@@ -1,8 +1,13 @@
 <script lang="ts">
-
     import { add_user, get_user } from '@/main';
+    import Navbar from '@/components/Navbar.vue'
+    import Footer from '@/components/Footer.vue'
 
-    export default {
+    export default {        
+        components: {
+            Navbar,
+            Footer
+        },
         async mounted() {
 
             function getCookie(name:string) {
@@ -80,6 +85,15 @@
 </script>
 
 <template>
-    <title>Anmeldung fehlgeschlagen - mauki.net</title>
-    <p>Anmeldung fehlgeschlagen!</p>
+    <Navbar></Navbar>
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h1 class="text-blue-500 mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">Fehler!</h1>
+                <p class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">Die Anmeldung ist fehlgeschlagen. Versuche es bitte erneut.</p>
+                <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">Sollte der Fehler weiterhin erscheinen, verwende einen anderen Browser</p>
+            </div>   
+        </div>
+    </section>
+    <Footer></Footer>
 </template>

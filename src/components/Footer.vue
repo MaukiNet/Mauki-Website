@@ -1,3 +1,19 @@
+<script lang="ts">
+
+import Vue from '@/components/Icons/Vue.vue'
+import Typescript from '@/components/Icons/Typescript.vue'
+import Tailwind from '@/components/Icons/Tailwindcss.vue'
+
+export default {
+    components: {
+        Vue,
+        Typescript,
+        Tailwind
+    }
+}
+
+</script>
+
 <template>
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
         <div class="mx-auto max-w-screen-xl">
@@ -10,13 +26,16 @@
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Gemacht mit...</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
                             <li class="mb-4">
-                                <a href="https://vuejs.org/" class="hover:underline">Vue.js</a>
+                                <a href="https://vuejs.org/" class="hover:underline"><Vue></Vue></a>
                             </li>
                             <li>
-                                <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                                <a href="https://tailwindcss.com/" class="hover:underline"><Tailwind></Tailwind></a>
+                            </li>
+                            <li>
+                                <a href="https://www.typescriptlang.org/" class="hover:underline"><Typescript></Typescript></a>
                             </li>
                         </ul>
                     </div>
