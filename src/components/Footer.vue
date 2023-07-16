@@ -1,8 +1,8 @@
 <script lang="ts">
 
-import Vue from '@/components/Icons/Vue.vue'
-import Typescript from '@/components/Icons/Typescript.vue'
-import Tailwind from '@/components/Icons/Tailwindcss.vue'
+import Vue from '@/components/icons/Vue.vue'
+import Typescript from '@/components/icons/Typescript.vue'
+import Tailwind from '@/components/icons/Tailwindcss.vue'
 
 export default {
     components: {

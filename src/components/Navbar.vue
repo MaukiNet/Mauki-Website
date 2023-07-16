@@ -1,6 +1,6 @@
 <script lang="ts">
 
-import Discord from '@/components/Icons/Discord.vue';
+import Discord from '@/components/icons/Discord.vue';
 
 export default {
     components: {

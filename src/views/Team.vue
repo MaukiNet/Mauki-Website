@@ -40,7 +40,7 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
 
                 <TeamContainer 
                 name="MiauRizius" 
-                rank="Full-Stack Development / Management" 
+                rank="Development / Management" 
                 img="https://cdn.discordapp.com/avatars/622784776234991626/1f8b78f17426329ad417ff3e5f2b0bc0.webp?size=128"
                 ttv="https://twitch.tv/miaurizius"
                 github="https://github.com/MiauRizius"
