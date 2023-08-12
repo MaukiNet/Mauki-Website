@@ -19,7 +19,7 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
 
 <template>
     <title>Team - mauki.net</title>
-    <Navbar></Navbar>
+    <Navbar />
         <main>
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
@@ -84,5 +84,5 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                 </div>
             </section>
         </main>
-    <Footer></Footer>
+    <Footer />
 </template>
