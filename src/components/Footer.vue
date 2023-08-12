@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
+    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 h-60">
         <div class="mx-auto max-w-screen-xl">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
@@ -27,17 +27,17 @@ export default {
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Gemacht mit...</h2>
-                        <ul class="text-gray-600 dark:text-gray-400">
-                            <li class="mb-4">
-                                <a href="https://vuejs.org/" class="hover:underline"><Vue></Vue></a>
-                            </li>
-                            <li>
-                                <a href="https://tailwindcss.com/" class="hover:underline"><Tailwind></Tailwind></a>
-                            </li>
-                            <li>
-                                <a href="https://www.typescriptlang.org/" class="hover:underline"><Typescript></Typescript></a>
-                            </li>
-                        </ul>
+                        <div class="text-gray-600 dark:text-gray-400 flex flex-row items-center flex-wrap">
+                            <div class="mr-2">
+                                <a href="https://vuejs.org/" class="hover:underline"><Vue /></a>
+                            </div>
+                            <div class="mr-2">
+                                <a href="https://tailwindcss.com/" class="hover:underline"><Tailwind /></a>
+                            </div>
+                            <div>
+                                <a href="https://www.typescriptlang.org/" class="hover:underline"><Typescript /></a>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Soziale Medien</h2>
