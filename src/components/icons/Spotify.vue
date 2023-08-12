@@ -3,8 +3,6 @@
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
         <g id="SVGRepo_iconCarrier"> 
-            <title>Spotify-color</title> 
-            <desc>Created with Sketch.</desc> 
             <defs></defs> 
             <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
                 <g id="Color-" transform="translate(-200.000000, -460.000000)" fill="#00DA5A"> 

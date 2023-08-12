@@ -32,7 +32,7 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                         <TeamContainer 
                         name="KikiYT" 
                         rank="Creator / Inhaber" 
-                        img="https://cdn.discordapp.com/avatars/234765355178917901/6706d060efe5caf93ebb770371a713ab.webp?size=128"
+                        img="https://cdn.discordapp.com/avatars/234765355178917901/4285e7c0e3f2663ccfd2e230af70b107.webp?size=128"
                         ttv="https://twitch.tv/kikiyt90"
                         github="https://github.com/KikiYT90"
                         twitter="https://twitter.com/KikiYT90"
@@ -42,12 +42,20 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                         <TeamContainer 
                         name="MiauRizius" 
                         rank="Development / Management" 
-                        img="https://cdn.discordapp.com/avatars/622784776234991626/1f8b78f17426329ad417ff3e5f2b0bc0.webp?size=128"
+                        img="https://cdn.discordapp.com/avatars/622784776234991626/a0e5543b80b74258d996e7c106a05dd3.webp?size=128"
                         ttv="https://twitch.tv/miaurizius"
                         github="https://github.com/MiauRizius"
                         twitter="https://twitter.com/MiauRizius"
                         insta="https://www.instagram.com/miaurizius"
                         spotify="https://open.spotify.com/user/ep9eydfcne13pk3jsnmq52r8e"></TeamContainer>
+
+                        <TeamContainer 
+                        name="Yoshino" 
+                        rank="Administration" 
+                        img="https://cdn.discordapp.com/avatars/509761783293149188/a_68256dbd8cc041415a96efc3a74ff306.gif?size=128"
+                        ttv="https://twitch.tv/_yoshinott_"
+                        twitter="https://twitter.com/_YoshinoTT_"
+                        spotify="https://open.spotify.com/user/846hx1aqq538727oopy8on09d"></TeamContainer>
                     
                         <TeamContainer 
                         name="Hina" 
@@ -58,7 +66,7 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                         <TeamContainer 
                         name="Kazuha" 
                         rank="Team Leitung" 
-                        img="https://cdn.discordapp.com/avatars/818556798461149248/49bd0ccfc2a154b9d5f64112e1d64bc2.webp?size=128"
+                        img="https://cdn.discordapp.com/avatars/818556798461149248/ea8156d5032bc6ccf678d9a834a9e21f.webp?size=128"
                         twitter="https://twitter.com/einfach_kazuha"
                         spotify="https://open.spotify.com/user/le8e9a7zv701fr6pns7pg7oy6"
                         ttv="https://www.twitch.tv/kazuha8124"></TeamContainer>
@@ -66,20 +74,11 @@ console.log('%c Wenn du nicht 100% weißt, was du tust, schließe dieses Fenster
                         <TeamContainer 
                         name="Woody" 
                         rank="Artist / Moderation" 
-                        img="https://cdn.discordapp.com/avatars/806677244431826974/76cdc95c6748102922e1ff8c00d3a5f1.webp?size=128"
+                        img="https://cdn.discordapp.com/avatars/806677244431826974/a_ddc949f62e222570aaff30ae0a6c8a7c.gif?size=128"
                         ttv="https://twitch.tv/woodyfs1980"
                         twitter="https://twitter.com/NoahS1304"
                         insta="https://www.instagram.com/noah.s.offiziell/"
-                        spotify="https://open.spotify.com/user/oltxfzahi9w9kj65wgutvepdh"></TeamContainer>
-                    
-                        <TeamContainer 
-                        name="NicyAmSleepen" 
-                        rank="Moderation" 
-                        img="https://cdn.discordapp.com/avatars/589161083554758682/aeb7c561cba3d1dd9568b4c255b979a8.webp?size=128"
-                        ttv="https://twitch.tv/nicyamsleepen"
-                        github="https://github.com/NicyAmSleepen"
-                        insta="https://www.instagram.com/nicyamsleepn/"
-                        spotify="https://open.spotify.com/user/nhi5gpof2w1axrpaqbaqqpyhb"></TeamContainer>
+                        spotify="https://open.spotify.com/user/oltxfzahi9w9kj65wgutvepdh"></TeamContainer>   
                     
                     </div>  
                 </div>
