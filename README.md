@@ -27,6 +27,8 @@ Homepage für mauki.net
 ## Environmental Variables
 ```env
 VITE_CLIENT_SECRET=
+VITE_DISCORD_TOKEN=
+VITE_MAUKI_API_AUTHTOKEN=
 ```
 
 ## Running (on mauki.net)
